@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# Photo Sharing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a photo sharing web application developed using React, TypeScript, JavaScript, and Bootstrap. The application features a comprehensive set of functionalities, including user authentication, a main photo feed with folder navigation, user profiles, post creation, and more.
 
-## Available Scripts
+## Table of Contents
+- [Key Features](#key-features)
+- [Tech Stack](#tech-stack)
+- [How to Run](#how-to-run)
+- [Contributions](#contributions)
+- [License](#license)
 
-In the project directory, you can run:
+## Key Features
+1. **Login Page:**
+   - Secure user authentication system for access to the application.
 
-### `npm start`
+2. **Main Feed Page:**
+   - Browse through a main feed with photos.
+   - Explore folders and view all photos.
+   - Filter photos by specific users.
+   - Add new photos to the feed.
+   - Delete own photos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. **User Profile Page:**
+   - Access user-specific data and posts.
+   - Edit user details for the logged-in user.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4. **User Search:**
+   - Search for users by name.
 
-### `npm test`
+5. **Photo Search:**
+   - Search for photos by photo ID and album.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **Post Page:**
+   - Display posts with user information.
+   - Delete own posts.
 
-### `npm run build`
+7. **Post Creation:**
+   - Share posts with the community.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+8. **Comments:**
+   - Comment on posts.
+   - Delete own comments.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
+- **Frontend:**
+  - React
+  - TypeScript
+  - JavaScript
+  - Bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How to Run
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm start`.
