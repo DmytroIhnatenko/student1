@@ -52,3 +52,7 @@ This project is a photo sharing web application developed using React, TypeScrip
 1. Clone the repository.
 2. Install dependencies using `npm install`.
 3. Start the development server with `npm start`.
+
+> Developed by [Dmytro Ihnatenko](https://www.linkedin.com/in/dmytro-ihnatenko-a19733286/)
+
+> ihnatenkodmytro0@gmail.com
